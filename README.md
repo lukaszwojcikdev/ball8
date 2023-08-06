@@ -1,7 +1,6 @@
-# ball8
 Ball 8 simulator from Interstate 60 - discover the truth
 
-
+---
 # Symulator Kuli 8 z filmu Interstate 60 w języku Go
 
 ![Interstate 60](https://link-do-obrazka)
