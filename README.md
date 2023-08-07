@@ -17,7 +17,7 @@ _|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|
 > The 8 Ball Simulator from Interstate 60
 This is a simple #8 ball simulator that answers questions randomly.
 
-The program is inspired by the movie "Interstate 60" from 2002. More than just a game.
+The program is inspired by the movie `Interstate 60` from 2002. More than just a game.
 
 
 ## Contents
