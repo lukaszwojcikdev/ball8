@@ -17,21 +17,21 @@ _|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|
 > The 8 Ball Simulator from Interstate 60
 This is a simple #8 ball simulator that answers questions randomly.
 
-The program is inspired by the movie "Interstate 60" from 2002.
-
-More than just a game.
+The program is inspired by the movie "Interstate 60" from 2002. More than just a game.
 
 
 ## Contents
 
  - [Introduction](#introduction)
- - [Quick installation](#quick installation)
- - [Full Installation Guide:](#full installation guide:)
- - [Sample question](#sample question)
- - [System requirements](#system requirements)
- - [Project structure](#project structure)
- - [Description of the files](#description of the files)
- - [More info](#more info)
+ - [Quick installation](#quick_installation)
+ - [Full Installation Guide:](#full_installation_guide)
+ - [Sample question](#sample_question)
+ - [Sample answer](#sample_answer)
+ - [Example of use](#example_of_use)
+ - [System requirements](#system_requirements)
+ - [Project structure](#project_structure)
+ - [Description of the files](#description_of_the_files)
+ - [More info](#more_info)
  - [Author](#author)
  - [License](#license)
  - [Thanks](#thanks)
@@ -40,7 +40,7 @@ More than just a game.
 Welcome to the repository of Go code that simulates the Questions and Answers of Kula 8 from Interstate 60: Episodes of the Road.
 The program generates random answers to the questions asked, creating an interactive element in the spirit of the movie.
 
-## Quick installation
+## Quick_installation
 1. Make sure you have at least Go version 1.20 installed.
 2. Clone this repository to your local computer.
 3. Change to the directory containing the `ball8.go` file.
@@ -48,7 +48,7 @@ The program generates random answers to the questions asked, creating an interac
 5. Compile the program using the command `go build ball8.go`.
 6. Run the program and ask a question, and the program will answer based on a random selection.
 
-## Full Installation Guide:
+## Full_Installation_Guide
 
 **Windows**
 
@@ -81,19 +81,20 @@ The program generates random answers to the questions asked, creating an interac
 6. Run `go run ball8.go` to run the code or `go build ball8.go` to compile the program.
 7. Run the program by typing: `./ball8`.
 
-## Sample question
+## Sample_question
 
 ```
 What weather is going to be tomorrow ?
 ```
 
-## Sample answer
+## Sample_answer
 
 ```
 Ball 8 speak: I'm not sure.
 ```
 
-## Example of use
+## Example_of_use
+
 Example 1: `$go run ball8.go`
 
 Enter question:
@@ -109,10 +110,10 @@ Should I eat pizza for dinner?
 Ball 8 speak:  "Definitely YES.",
 
 
-## System requirements
+## System_requirements
 Golang 1.20
 
-## Project structure
+## Project_structure
 ├── LICENSE
 
 ├── README.md
@@ -120,7 +121,7 @@ Golang 1.20
 └── ball8.go
 
 
-## Description of the files
+## Description_of_the_files
 > LICENSE - program license.
 
 > ball8.go - program source file.
@@ -128,7 +129,7 @@ Golang 1.20
 > README.md - a file containing information about the project.
 
 
-## More info
+## More_info
 
 You can read an article about this program on dev.to
 
@@ -136,7 +137,7 @@ You can read an article about this program on dev.to
 
 Autor: Łukasz Wójcik
 
-## author
+## Author
 This program was created by [Łukasz Wójcik] (@glukaszwojcikdev) (c) 2023
 
 ## License
