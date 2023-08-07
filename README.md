@@ -129,7 +129,7 @@ Golang 1.20
 > README.md - a file containing information about the project.
 
 
-## More_info
+## More_Info
 
 You can read an article about this program on dev.to
 
@@ -138,11 +138,11 @@ You can read an article about this program on dev.to
 Autor: Łukasz Wójcik
 
 ## Author
-This program was created by [Łukasz Wójcik] (@glukaszwojcikdev) (c) 2023
+This program was created by [Łukasz Wójcik] (@lukaszwojcikdev) (c) 2023
 
 ## License
 
-This program is licensed under the [MIT](https://link-do-licencji). 
+This program is licensed under the [MIT](https://link-do-licencji)
 
 More information can be found in the LICENSE.
 
