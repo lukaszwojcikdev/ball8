@@ -1,47 +1,55 @@
-Ball 8 simulator from Interstate 60 - discover the truth
 
+```
+   ___              _       _               ___   
+  | _ )   __ _     | |     | |      o O O  ( _ )  
+  | _ \  / _` |    | |     | |     o       / _ \  
+  |___/  \__,_|   _|_|_   _|_|_   TS__[O]  \___/  
+_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""| 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'./o--000'"`-0-0-' 
+
+``` 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
+![Website](https://img.shields.io/website?url=http%3A%2F%2Fbase128.com)
+![version](https://img.shields.io/badge/version-1.0-blue)
+![Golang](https://img.shields.io/badge/-Golang-00ADD8?logo=Go&logoColor=white&style=flat)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
 ---
-# Symulator Kuli 8 z filmu Interstate 60 w języku Go
 
-![Interstate 60](https://link-do-obrazka)
+> The 8 Ball Simulator from Interstate 60
+This is a simple #8 ball simulator that answers questions randomly.
 
-Witaj w repozytorium zawierającym kod programu w języku Go, który symuluje pytania i odpowiedzi Kuli 8 z filmu "Interstate 60: Episodes of the Road". Program generuje losowe odpowiedzi na zadane pytania, tworząc interaktywny element w duchu filmu.
+The program is inspired by the movie "Interstate 60" from 2002.
 
-## Instrukcje
+More than just a game.
 
+
+## Contents
+
+ - [Application](#application)
+ - [Instalation](#instalation)
+ - [Usage/Examples](#usageexamples)
+ - [Contributing](#contributing)
+ - [Documentation](#documentation)
+ - [Autor](#author)
+ - [Site](#site)
+ - [Download](#download)
+ - [License](#license)
+
+## Introduction
+Welcome to the repository of Go code that simulates the Questions and Answers of Kula 8 from Interstate 60: Episodes of the Road.
+The program generates random answers to the questions asked, creating an interactive element in the spirit of the movie.
+
+## How run or build program
+Upewnij się, że masz zainstalowany GO w wersji co najmniej 1.20.
+Sklonuj ten repozytorium na swoje urządzenie.
+Przejdź do katalogu zawierającego plik main.py.
+Uruchom program, wpisując w terminalu `go run ball8.go`
+Zadaj pytanie, a program udzieli odpowiedzi na podstawie losowego wyboru.
 1. Sklonuj to repozytorium na swój lokalny komputer.
 2. Upewnij się, że masz zainstalowany Go na swoim systemie.
 3. Uruchom program, wpisując w terminalu komendę: `go run main.go`.
 4. Zadaj pytanie, na które chcesz uzyskać odpowiedź.
 5. Zobacz, jak program generuje losową odpowiedź Kuli 8.
-
-## Przykładowe pytanie
-
-```
-Czy mam dzisiaj szczęście?
-```
-
-## Przykładowa odpowiedź
-
-```
-Pytanie: Czy mam dzisiaj szczęście?
-Kula 8 mówi: To pewne.
-```
-
-## Autor
-
-Artykuł na temat tego programu możesz znaleźć na dev.to
-
-[Try the Ball 8 simulator from Interstate 60 and discover the truth.]([https://link-do-artykułu](https://dev.to/lukaszwojcikdev/try-the-ball-8-simulator-from-interstate-60-and-discover-the-truth-2m4o-temp-slug-9482066?preview=aa8b3cafceec3b0f3e5e1683fab51b112da20fdce858ab6bfec0d1b58612612b65d8ca3e8ff1ea6e913d9a4918c5d4d5e71e06e2249954a78d970231))
-
-Autor: Łukasz Wójcik
-
-## Licencja
-
-Ten program jest objęty licencją [MIT](https://link-do-licencji). 
-Więcej informacji można znaleźć w pliku LICENSE.
-
----
 
 ## Instrukcja instalacji:
 
@@ -69,6 +77,72 @@ Więcej informacji można znaleźć w pliku LICENSE.
 4. W terminalu przejdź do folderu, w którym znajduje się plik `main.go`.
 5. Wykonaj komendę `go run main.go`, aby uruchomić kod.
 
-## POdziękowania
+## Przykładowe pytanie
+
+```
+Jaka będzie jutro pogoda ?
+```
+
+## Przykładowa odpowiedź
+
+```
+Kula 8 mówi: Nie jestem pewien.
+```
+
+## Przykład użycia
+Przykład 1: `$go run ball8.go`
+
+Wprowadź pytanie: 
+
+Czy dzisiaj będzie słonecznie? 
+
+Ball 8 speak: "Of course!"
+
+Przykład 2: `$go run ball8.go`
+
+Wprowadź pytanie: 
+
+Czy powinienem zjeść pizzę na obiad? 
+
+Ball 8 speak:  "Definitely YES.",
+
+
+## Wymagania systemowe
+Golang 1.20
+
+## Struktura projektu
+├── LICENSE
+
+├── README.md
+
+└── ball8.go
+
+
+## Opis plików
+> LICENSE - licencja programu.
+
+> ball8.go - plik źródłowy programu.
+
+> README.md - plik zawierający informacje o projekcie.
+
+
+## More info
+
+Artykuł na temat tego programu możesz znaleźć na dev.to
+
+[Try the Ball 8 simulator from Interstate 60 and discover the truth.]([https://link-do-artykułu](https://dev.to/lukaszwojcikdev/try-the-ball-8-simulator-from-interstate-60-and-discover-the-truth-2m4o-temp-slug-9482066?preview=aa8b3cafceec3b0f3e5e1683fab51b112da20fdce858ab6bfec0d1b58612612b65d8ca3e8ff1ea6e913d9a4918c5d4d5e71e06e2249954a78d970231))
+Autor: Łukasz Wójcik
+
+## Licencja
+
+Ten program jest objęty licencją [MIT](https://link-do-licencji). 
+
+Więcej informacji można znaleźć w pliku LICENSE.
+
+---
+
+
+
+## Podziękowania
 Dziękujemy za zainteresowanie naszym projektem! Jeśli masz jakiekolwiek pytania lub uwagi, prosimy o kontakt. 
 Miłego korzystania z Symulatora Kuli 8!
