@@ -9,7 +9,6 @@ _|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|
 
 ``` 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
-![Website](https://img.shields.io/website?url=http%3A%2F%2Fbase128.com)
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![Golang](https://img.shields.io/badge/-Golang-00ADD8?logo=Go&logoColor=white&style=flat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
@@ -25,92 +24,95 @@ More than just a game.
 
 ## Contents
 
- - [Application](#application)
- - [Instalation](#instalation)
- - [Usage/Examples](#usageexamples)
- - [Contributing](#contributing)
- - [Documentation](#documentation)
- - [Autor](#author)
- - [Site](#site)
- - [Download](#download)
+ - [Introduction](#introduction)
+ - [Quick installation](#quick installation)
+ - [Full Installation Guide:](#full installation guide:)
+ - [Sample question](#sample question)
+ - [System requirements](#system requirements)
+ - [Project structure](#project structure)
+ - [Description of the files](#description of the files)
+ - [More info](#more info)
+ - [Author](#author)
  - [License](#license)
+ - [Thanks](#thanks)
 
 ## Introduction
 Welcome to the repository of Go code that simulates the Questions and Answers of Kula 8 from Interstate 60: Episodes of the Road.
 The program generates random answers to the questions asked, creating an interactive element in the spirit of the movie.
 
-## How run or build program
-Upewnij się, że masz zainstalowany GO w wersji co najmniej 1.20.
-Sklonuj ten repozytorium na swoje urządzenie.
-Przejdź do katalogu zawierającego plik main.py.
-Uruchom program, wpisując w terminalu `go run ball8.go`
-Zadaj pytanie, a program udzieli odpowiedzi na podstawie losowego wyboru.
-1. Sklonuj to repozytorium na swój lokalny komputer.
-2. Upewnij się, że masz zainstalowany Go na swoim systemie.
-3. Uruchom program, wpisując w terminalu komendę: `go run main.go`.
-4. Zadaj pytanie, na które chcesz uzyskać odpowiedź.
-5. Zobacz, jak program generuje losową odpowiedź Kuli 8.
+## Quick installation
+1. Make sure you have at least Go version 1.20 installed.
+2. Clone this repository to your local computer.
+3. Change to the directory containing the `ball8.go` file.
+4. Run the program by typing go `run ball8.go` in the terminal.
+5. Compile the program using the command `go build ball8.go`.
+6. Run the program and ask a question, and the program will answer based on a random selection.
 
-## Instrukcja instalacji:
+## Full Installation Guide:
 
-**Dla systemu Windows:**
+**Windows**
 
-1. Pobierz i zainstaluj Go ze strony https://golang.org/dl/.
-2. Otwórz wiersz poleceń (cmd) i wykonaj komendę `go version`, aby upewnić się, że Go zostało poprawnie zainstalowane.
-3. Skopiuj kod do pliku o nazwie `main.go`.
-4. Otwórz wiersz poleceń (cmd) i przejdź do folderu, w którym znajduje się plik `main.go`.
-5. Wykonaj komendę `go run main.go`, aby uruchomić kod.
+1. Download and install Go from https://golang.org/dl/
+2. Open a command prompt (cmd) and run the `go version` command to make sure Go has been installed correctly.
+3. Copy the code to a file named `ball8.go` or
+4. Clone the git repository: `git clone https://github.com/lukaszwojcikdev/ball8.git`
+5. Go to the folder where the `ball8.go` file is located with the command: `cd ball8`.
+6. Run `go run ball8.go` to run the code or `go build ball8.go` to compile the program.
+7. Run the program by typing: `ball8.exe`.
 
-**Dla systemu Linux:**
 
-1. Otwórz terminal i wykonaj komendę `sudo apt-get install golang`, aby zainstalować Go.
-2. Upewnij się, że Go zostało poprawnie zainstalowane, wykonując komendę `go version`.
-3. Skopiuj kod do pliku o nazwie `main.go`.
-4. W terminalu przejdź do folderu, w którym znajduje się plik `main.go`.
-5. Wykonaj komendę `go run main.go`, aby uruchomić kod.
+**Linux**
 
-**Dla systemu macOS:**
+1. Open a terminal and run `sudo apt-get install golang` to install Go.
+2. Make sure Go is installed correctly by running the `go version` command.
+3. Copy the code to a file named `ball8.go` or
+4. Clone the git repository: `git clone https://github.com/lukaszwojcikdev/ball8.git`
+5. In the terminal, go to the folder where the `ball8.go` file is located with the command: `cd ball8`.
+6. Run `go run ball8.go` to run the code or `go build ball8.go` to compile the program.
+7. Run the program by typing: `./ball8`.
 
-1. Pobierz i zainstaluj Go ze strony https://golang.org/dl/.
-2. Otwórz terminal i wykonaj komendę `go version`, aby upewnić się, że Go zostało poprawnie zainstalowane.
-3. Skopiuj kod do pliku o nazwie `main.go`.
-4. W terminalu przejdź do folderu, w którym znajduje się plik `main.go`.
-5. Wykonaj komendę `go run main.go`, aby uruchomić kod.
+**macOS:**
 
-## Przykładowe pytanie
+1. Download and install Go from https://golang.org/dl/
+2. Open a terminal and run the `go version` command to make sure Go has been installed correctly.
+3. Copy the code to a file named `ball8.go` or
+4. Clone the git repository: `git clone https://github.com/lukaszwojcikdev/ball8.git`
+5. In the terminal, go to the folder where the `ball8.go` file is located with the command: `cd ball8`.
+6. Run `go run ball8.go` to run the code or `go build ball8.go` to compile the program.
+7. Run the program by typing: `./ball8`.
 
-```
-Jaka będzie jutro pogoda ?
-```
-
-## Przykładowa odpowiedź
+## Sample question
 
 ```
-Kula 8 mówi: Nie jestem pewien.
+What weather is going to be tomorrow ?
 ```
 
-## Przykład użycia
-Przykład 1: `$go run ball8.go`
+## Sample answer
 
-Wprowadź pytanie: 
+```
+Ball 8 speak: I'm not sure.
+```
 
-Czy dzisiaj będzie słonecznie? 
+## Example of use
+Example 1: `$go run ball8.go`
+
+Enter question:
+Will it be sunny today?
 
 Ball 8 speak: "Of course!"
 
-Przykład 2: `$go run ball8.go`
+Example 2: `$go run ball8.go`
 
-Wprowadź pytanie: 
-
-Czy powinienem zjeść pizzę na obiad? 
+Enter question:
+Should I eat pizza for dinner?
 
 Ball 8 speak:  "Definitely YES.",
 
 
-## Wymagania systemowe
+## System requirements
 Golang 1.20
 
-## Struktura projektu
+## Project structure
 ├── LICENSE
 
 ├── README.md
@@ -118,31 +120,37 @@ Golang 1.20
 └── ball8.go
 
 
-## Opis plików
-> LICENSE - licencja programu.
+## Description of the files
+> LICENSE - program license.
 
-> ball8.go - plik źródłowy programu.
+> ball8.go - program source file.
 
-> README.md - plik zawierający informacje o projekcie.
+> README.md - a file containing information about the project.
 
 
 ## More info
 
-Artykuł na temat tego programu możesz znaleźć na dev.to
+You can read an article about this program on dev.to
 
 [Try the Ball 8 simulator from Interstate 60 and discover the truth.]([https://link-do-artykułu](https://dev.to/lukaszwojcikdev/try-the-ball-8-simulator-from-interstate-60-and-discover-the-truth-2m4o-temp-slug-9482066?preview=aa8b3cafceec3b0f3e5e1683fab51b112da20fdce858ab6bfec0d1b58612612b65d8ca3e8ff1ea6e913d9a4918c5d4d5e71e06e2249954a78d970231))
+
 Autor: Łukasz Wójcik
 
-## Licencja
+## author
+This program was created by [Łukasz Wójcik] (@glukaszwojcikdev) (c) 2023
 
-Ten program jest objęty licencją [MIT](https://link-do-licencji). 
+## License
 
-Więcej informacji można znaleźć w pliku LICENSE.
+This program is licensed under the [MIT](https://link-do-licencji). 
+
+More information can be found in the LICENSE.
 
 ---
 
 
+## Thanks
+Thank you for your interest in our project!
 
-## Podziękowania
-Dziękujemy za zainteresowanie naszym projektem! Jeśli masz jakiekolwiek pytania lub uwagi, prosimy o kontakt. 
-Miłego korzystania z Symulatora Kuli 8!
+If you have any questions or comments, please contact us.
+
+Enjoy the 8 Ball Simulator!
