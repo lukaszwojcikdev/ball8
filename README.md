@@ -37,7 +37,7 @@ The program is inspired by the movie "Interstate 60" from 2002. More than just a
  - [Thanks](#thanks)
 
 ## Introduction
-Welcome to the repository of Go code that simulates the Questions and Answers of Kula 8 from Interstate 60: Episodes of the Road.
+Welcome to the repository of Go code that simulates the Questions and Answers of Ball 8 from `Interstate 60: Episodes of the Road.`
 The program generates random answers to the questions asked, creating an interactive element in the spirit of the movie.
 
 ## Quick_installation
